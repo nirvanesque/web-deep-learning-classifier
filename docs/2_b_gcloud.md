@@ -1,8 +1,8 @@
 ```
 
-GCP_PROJECT=....
-APP_NAME=food
-REGION="us-central1"
+GCP_PROJECT="flowing-gasket-309204"
+APP_NAME=dr
+REGION="asia-south1"
 MEMORY=1G
 gcloud builds submit --tag gcr.io/$GCP_PROJECT/$APP_NAME
 
