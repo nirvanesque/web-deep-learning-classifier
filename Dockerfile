@@ -18,5 +18,5 @@ RUN python src/app.py prepare
 
 #EXPOSE 5000
 
-# Start the server
+# Start the app server
 CMD ["python", "src/app.py", "serve"]

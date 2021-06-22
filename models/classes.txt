@@ -1,0 +1,1 @@
+['Healthy eye', 'Mild DR', 'Moderate DR', 'Severe DR', 'Proliferative DR']
