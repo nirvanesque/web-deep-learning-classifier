@@ -11,6 +11,7 @@ from flask import Flask
 import requests
 import torch
 import json
+from PIL import Image
 
 with open("src/config.yaml", 'r') as stream:
     APP_CONFIG = yaml.full_load(stream)
